@@ -7,7 +7,7 @@ This module provides utilities for working with strings.
 
 ## Install
 ```
-$ npm install --save query-string
+$ npm install --save jsz-string
 ```
 
 ## API
