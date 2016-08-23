@@ -2,9 +2,12 @@
 
 /**
  * @module jsz-string
- * This module ontains some utilities for working with string.
+ * This module provides utilities for working with strings.
  */
 
+/**
+ * The empty string "".
+ */
 const EMPTY_STRING = "";
 
 /**
