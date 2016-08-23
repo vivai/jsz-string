@@ -24,6 +24,8 @@ isEmptyString(str: string): boolean
 ```
 Returrns true is the string is solely composed of whitespace.
 
+## Version and changes
+Releases are documented in [CHANGELOG.md](CHANGELOG.md).
 
 [dependencies-img]: https://david-dm.org/vivai/jsz-string.svg
 [dependencies-url]: https://david-dm.org/vivai/jsz-string
