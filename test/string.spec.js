@@ -2,7 +2,7 @@
 "use strict";
 
 import {test} from "tape";
-import {EMPTY_STRING, isEmptyString} from "../src/string";
+import {SPACE, EMPTY_STRING, isEmptyString} from "../src/string";
 
 test("Custom error classes", function(t) {
 
@@ -26,6 +26,10 @@ test("Custom error classes", function(t) {
   t.true(isEmptyString("\n"), "isEmptyString('\\n') returns true");
   t.true(isEmptyString("\t"), "isEmptyString('\\t') returns true");
   t.true(isEmptyString("\t\n\t"), "isEmptyString('\\t\\n\\t') returns true");
+
+  t.equal(SPACE, " ", "A space > <.");
+  t.notEqual(SPACE, EMPTY_STRING, "SPACE is not an EMPTY_STRING.");
+  t.true(isEmptyString(SPACE), "SPACE is an empty string.");
 
   // --------------------------------------------------------------------------
   t.end();

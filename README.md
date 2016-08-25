@@ -18,6 +18,12 @@ const EMPTY_STRING: string
 ```
 The empty string "".
 
+### SPACE
+```
+const SPACE: string
+```
+A string for a space character.
+
 ### isEmptyString
 ```
 isEmptyString(str: string): boolean
